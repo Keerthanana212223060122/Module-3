@@ -4,15 +4,17 @@
 ---
 
 ### AIM  
-To write a Python function to accept a string, find the character or the substring.
+To write a Python function to accept a string, identify a word to be replaced, and replace it with a new word provided by the user.
 
 ---
 
 ### ALGORITHM
 
 1. Begin the program.  
-2. Input the original string `str1` and find the character the string `str.find()`.  
-4. Use the `find()` method in Python to find all occurrences of `findstr` in `str1` with `str2`.    
+2. Input the original string `str1` and the word to be replaced `replace_str`.  
+3. Ask the user to input the new replacement word `str2`.  
+4. Use the `replace()` method in Python to replace all occurrences of `replace_str` in `str1` with `str2`.  
+5. Store the modified string in `str3`.  
 6. Display the original string (`str1`) and the modified string (`str3`).  
 7. Terminate the program.
 
@@ -21,16 +23,13 @@ To write a Python function to accept a string, find the character or the substri
 ### PROGRAM
 
 ```
-# Reg.No-212223060122
-# Name-Keerthana S
-
-def findstr(s,a):
-    b=s.find(a)
-    print(b)
+def replacestr(s,d):
+    a=input()
+    f=s.replace(d,a)
+    print("The old string is {}\nthe new string is {}".format(s,f))
 ```
 
 ### OUTPUT
-![image](https://github.com/user-attachments/assets/4ceed59a-866d-4791-b5d3-ee54f78faf30)
-
+![Screenshot 2025-04-27 153159](https://github.com/user-attachments/assets/ad71ca68-fa7c-49d3-bb2b-a28df1e940df)
 ### RESULT
- Thus, a Python function to accept a string, find the character or the substring are verified.
+Thus the python program to identifing and replacing with new word has been implemented and executed successfully.
