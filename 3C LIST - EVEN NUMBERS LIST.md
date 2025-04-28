@@ -1,10 +1,10 @@
 # Exp.No:3c
-## LIST - EVEN NUMBERS LIST
+## LIST - MULTIPLY THE NUMBERS LIST
 
 ---
 
 ### AIM  
-To write a Python function that accepts a number **N** and creates a list containing all even numbers up to **N**.
+To write a Python function to multiply all the items in a list.
 
 ---
 
@@ -13,10 +13,8 @@ To write a Python function that accepts a number **N** and creates a list contai
 1. Begin the program.  
 2. Accept an integer `a` from the user.  
 3. Create an empty list `l`.  
-4. Use a `for` loop to iterate through numbers from `1` to `a - 1`:  
-   - For each number `i`, check if it is even using `i % 2 == 0`.  
-   - If it is even, append `i` to the list `l`.  
-5. Print the final list `l` containing all the even numbers.  
+4. Use a `for` loop to iterate through numbers
+5. Print the final list `l` containing all the multiply the numbers.  
 6. Terminate the program.
 
 ---
@@ -24,8 +22,18 @@ To write a Python function that accepts a number **N** and creates a list contai
 ### PROGRAM
 
 ```
+# Reg.No-212223060122
+# Name-Keerthana S
+
+list=[1,2,-8]
+res=1
+for item in list:
+    res*=item
+print(res)
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/f23935d6-053d-4108-bb10-6178d393d327)
 
 ### RESULT
+Thus, a Python function to multiply all the items in a list are verified.
