@@ -22,7 +22,7 @@ To write a Python function to accept a string, identify a word to be replaced, a
 
 ### PROGRAM
 
-```
+```python
 def replacestr(s,d):
     a=input()
     f=s.replace(d,a)
