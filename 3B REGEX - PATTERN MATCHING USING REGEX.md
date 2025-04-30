@@ -22,7 +22,7 @@ To write a Python program that matches a string containing an `'a'` followed by 
 
 ### PROGRAM
 
-```
+```python
 import re
 str=input()
 x=re.search("bb",str)
