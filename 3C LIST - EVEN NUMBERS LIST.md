@@ -23,7 +23,7 @@ To write a Python function that accepts a number **N** and creates a list contai
 
 ### PROGRAM
 
-```
+```python
 def createlist(n):
     l=[]
     for i in range(2,n):
